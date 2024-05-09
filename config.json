@@ -1,0 +1,18 @@
+{
+  "clientId": "YOUR_CLIENT_ID_HERE",
+  "token": "YOUR_TOKEN_HERE",
+
+  "guildId": "YOUR_GUILD_ID_HERE",
+  "commandName": "command_name_no_spaces_or_special_characters",
+
+  "replyEphemeral": false,
+  "features": {
+    "enableRolePrefix": false,
+    "rolePrefix": "FOO:BAR | ",
+    "enableExclusionWords": true,
+    "exclusionWords": ["FOO", "BAR", "FOO-BAR", "foobar", "---"],
+    "enableExcludedRoleIds": false,
+    "excludedRoleIds": ["123456789123456789", "123456789123456789"],
+    "ignoreBotOwnedRoles": true
+  }
+}
